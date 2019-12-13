@@ -1,0 +1,32 @@
+{
+    "author": "Samet Özden",
+    "content_scripts": [{
+            "js": ["js/jquery-2.0.3.js"],
+            "matches": ["https://www.vatanbilgisayar.com/*", "https://www.mediamarkt.com.tr/*", "https://www.sametozden.com/*"],
+            "run_at": "document_start"
+        }],
+    "description": "Eklenti, öntanımlı siteler üzerindeki ürün fiyatlarının son 1 aydaki fiyat geçmişini gösterir.",
+    "browser_action": {
+          "default_icon": {                   
+            "48": "img/icon48.png"     
+          },
+          "default_title": "Fiyat Dedektifi",     
+          "default_popup": "showprice.html"      
+        },
+    "icons": {
+        "128": "img/icon128.png",
+        "48": "img/icon48.png"
+    },
+    "manifest_version": 2,
+    "name": "Fiyat Dedektifi",
+    "version": "1.0",
+    "permissions": [
+        "storage","tabs"
+    ], 
+    "background": {
+        "scripts": ["js/background.js"]
+    },
+    "content_security_policy": "script-src 'self' https://www.gstatic.com; object-src 'self'",
+    "update_url": "http://clients2.google.com/service/update2/crx"
+}
+

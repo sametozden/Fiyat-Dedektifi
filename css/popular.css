@@ -1,0 +1,36 @@
+body {
+	font-family: Arial, sans-serif;
+	font-weight: 200;
+	color: #333;
+	padding: 0;
+	margin: 0;
+	min-width: 300px;
+	position: relative;
+	font-size: 16px;
+	background: #fff;
+}
+#header {
+	padding: 5px 15px 5px 16px;
+	border-bottom: 1px solid #ccc;
+	font-size: 14px;
+	height: 30px;
+	width: 100%;
+	line-height: 25px;
+	background: #e0e0e0;
+	color: #333;
+        box-sizing: border-box;
+}
+.group {
+	padding: 5px 0;
+        border-bottom: 1px solid #ccc;
+}
+
+.menuOption {
+	font-size: 14px;
+	line-height: 2em;
+	white-space: nowrap;
+	cursor: pointer;
+	padding: 0 5px;
+}
+#appname { float:left; font-size: 16px; font-weight: bold; }
+#versiyon { float: right; font-size: 13px; }

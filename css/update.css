@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    font-weight: 200;
+    color: #333;
+    padding: 0;
+    margin: 0;
+    width: 500px;
+    position: relative;
+    font-size: 16px;
+    background: #fff;
+    margin:10px auto 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+#header {
+    padding: 5px 15px 5px 16px;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    height: 30px;
+    width: 100%;
+    line-height: 25px;
+    background: #ececec;
+    color: #333;
+    box-sizing: border-box;
+}
+.midd { padding: 20px; line-height: 20px; }
+.midd a { color:#a84141; text-decoration: none; }
+#appname { float:left; font-size: 16px; font-weight: bold; }
+#version { float: right; font-size: 13px; }
